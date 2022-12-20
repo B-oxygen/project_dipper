@@ -1,5 +1,5 @@
 const A = artifacts.require("rootVerify");
 
-module.exports = function (deployer) {
-  deployer.deploy(A);
+module.exports = async function (deployer) {
+  await deployer.deploy(A);
 };
