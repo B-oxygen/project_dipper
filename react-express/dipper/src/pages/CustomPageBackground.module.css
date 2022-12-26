@@ -1,0 +1,294 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.wrapper {
+  position: absolute;
+  top: 182px;
+  left: 45px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 33px 19px rgba(144, 85, 162, 0.5);
+  width: 1606px;
+  height: 937px;
+}
+.logoExIcon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 187px;
+  height: 173px;
+  object-fit: cover;
+}
+.logoText {
+  position: absolute;
+  top: 37px;
+  left: 238px;
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  width: 342px;
+  height: 90px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  filter: blur(4px);
+  -webkit-text-stroke: 1px #fff;
+}
+.button,
+.startGameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.button {
+  background-color: transparent;
+  top: -7px;
+  left: 18px;
+  width: 580px;
+  height: 165px;
+}
+.startGameChild {
+  background-color: var(--color-gray-300);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  width: 1517.86px;
+  height: 122.13px;
+}
+.startGame1 {
+  position: absolute;
+  top: 24.82px;
+  left: 509.37px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 461.2px;
+  height: 71.49px;
+}
+.shopButtonChild,
+.startGame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.startGame {
+  background-color: transparent;
+  top: 217px;
+  left: 89px;
+  width: 1517.86px;
+  height: 122.13px;
+}
+.shopButtonChild {
+  background-color: var(--color-gray-200);
+  top: 0;
+  left: calc(50% - 70px);
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 33px 19px rgba(144, 85, 162, 0.5);
+  width: 140px;
+  height: 73px;
+}
+.shop {
+  position: absolute;
+  top: 17.87px;
+  left: calc(50% - 45.85px);
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-violet);
+  text-align: left;
+  display: inline-block;
+  width: 91.45px;
+  height: 38.73px;
+  -webkit-text-stroke: 1px #000;
+}
+.instanceChild,
+.shopButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+.shopButton {
+  background-color: transparent;
+  left: calc(50% + 37px);
+  width: 140px;
+  height: 73px;
+}
+.instanceChild {
+  background-color: var(--color-gray-200);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 33px 19px rgba(144, 85, 162, 0.5);
+  opacity: 0;
+}
+.clothes.animate,
+.instanceChild.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.myPage {
+  position: absolute;
+  height: 52.7%;
+  width: 78.71%;
+  top: 24.5%;
+  left: 10.87%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-violet);
+  text-align: left;
+  display: inline-block;
+  -webkit-text-stroke: 1px #000;
+}
+.icon,
+.rectangleParent {
+  position: absolute;
+  height: 73.48px;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 184px;
+}
+.icon {
+  top: 47px;
+  left: calc(50% + 423.5px);
+  width: 354px;
+}
+.pants {
+  top: 876px;
+  left: 128px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-500);
+  width: 376px;
+  height: 141px;
+}
+.clothes,
+.icon1,
+.pants {
+  position: absolute;
+}
+.clothes {
+  top: 778px;
+  left: 131px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-500);
+  width: 370px;
+  height: 77px;
+  opacity: 0;
+}
+.icon1 {
+  top: calc(50% - 194.5px);
+  right: 1154px;
+  border-radius: 75px;
+  width: 372px;
+  height: 383px;
+  object-fit: cover;
+}
+.navClothes,
+.navPants {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--color-gray-500);
+  top: 388px;
+  width: 149px;
+  height: 77px;
+  opacity: 0;
+}
+.navPants {
+  padding: 0;
+  position: absolute;
+  left: 848px;
+  border-radius: var(--br-xs);
+}
+.navBackground.animate,
+.navClothes.animate,
+.navPants.animate {
+  animation: 2s ease 0s 1 normal forwards fade-in;
+}
+.navClothes {
+  left: 699px;
+}
+.background4,
+.navBackground,
+.navClothes {
+  padding: 0;
+  position: absolute;
+  border-radius: var(--br-xs);
+}
+.navBackground {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--color-gray-500);
+  top: 388px;
+  left: 550px;
+  width: 149px;
+  height: 77px;
+  opacity: 0;
+}
+.background1,
+.background2,
+.background3,
+.background4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 497px;
+  background: linear-gradient(#fff, #fff), rgba(217, 217, 217, 0.24);
+  width: 199px;
+  height: 182px;
+  mix-blend-mode: normal;
+  position: absolute;
+  border-radius: var(--br-xs);
+  z-index: 1;
+}
+.background1 {
+  left: 574px;
+}
+.background2 {
+  left: 809px;
+}
+.background3 {
+  left: 1044px;
+}
+.background4 {
+  left: 1289px;
+}
+.container {
+  position: absolute;
+  border-radius: var(--br-xs);
+  top: 465px;
+  left: 550px;
+  background-color: var(--color-gray-500);
+  width: 1057px;
+  height: 552px;
+}
+.customPageBackground {
+  position: relative;
+  background: linear-gradient(transparent, transparent),
+    linear-gradient(transparent, transparent), 0 0;
+  border: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1149px;
+}

@@ -1,0 +1,208 @@
+.wholeWrapper {
+  position: absolute;
+  height: 77.41%;
+  width: 97.13%;
+  top: 22.59%;
+  right: 0;
+  bottom: 0;
+  left: 2.87%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 33px 19px rgba(144, 85, 162, 0.5);
+}
+.wrapperLogin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-600);
+  width: 363px;
+  height: 655px;
+}
+.login1 {
+  position: absolute;
+  top: 25.99px;
+  left: 16px;
+  display: inline-block;
+  width: 331px;
+  height: 602.32px;
+}
+.login,
+.startGameChild {
+  position: absolute;
+  top: 457px;
+  left: 1189px;
+  width: 363px;
+  height: 655px;
+}
+.startGameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-300);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+}
+.startGame1 {
+  position: absolute;
+  height: 58.54%;
+  width: 30.38%;
+  top: 20.33%;
+  left: 33.56%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.startGame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 306px;
+  left: 65px;
+  width: 1517.86px;
+  height: 122.13px;
+}
+.logoExIcon {
+  height: 104.85%;
+  width: 32.47%;
+  top: 0;
+  right: 68.23%;
+  bottom: -4.85%;
+  left: -0.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo,
+.logoExIcon,
+.logoText {
+  position: absolute;
+}
+.logoText {
+  height: 54.55%;
+  width: 60.42%;
+  top: 15.15%;
+  left: 39.58%;
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  filter: blur(4px);
+  -webkit-text-stroke: 1px #fff;
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 72px;
+  left: 5px;
+  width: 576px;
+  height: 165px;
+}
+.firstImageIcon {
+  position: absolute;
+  top: calc(50% - 108px);
+  left: calc(50% - 692px);
+  width: 1007px;
+  height: 574px;
+  object-fit: cover;
+}
+.shopButtonChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 33px 19px rgba(144, 85, 162, 0.5);
+}
+.shop {
+  position: absolute;
+  height: 53.05%;
+  width: 65.32%;
+  top: 24.48%;
+  left: 17.25%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-violet);
+  text-align: left;
+  display: inline-block;
+  -webkit-text-stroke: 1px #000;
+}
+.shopButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 99.35%;
+  width: 39.55%;
+  top: 0;
+  right: 0;
+  bottom: 0.65%;
+  left: 60.45%;
+}
+.myPage {
+  position: absolute;
+  height: 52.7%;
+  width: 78.71%;
+  top: 24.32%;
+  left: 12.84%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-violet);
+  text-align: left;
+  display: inline-block;
+  -webkit-text-stroke: 1px #000;
+}
+.myPageButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 51.98%;
+  top: 0;
+  right: 48.02%;
+  bottom: 0;
+  left: 0;
+}
+.icon {
+  position: absolute;
+  top: 142px;
+  left: 1198px;
+  width: 354px;
+  height: 73.48px;
+}
+.loginPage {
+  position: relative;
+  width: 100%;
+  height: 1164px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

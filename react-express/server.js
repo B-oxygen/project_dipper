@@ -3,23 +3,33 @@ const app = express();
 const path = require("path");
 const mysql = require("mysql");
 const dbconfig = require("./dbconfig.js");
+const db = mysql.createConnection(dbconfig);
 
+const port = 8545;
+db.connect(function (err) {
+  if (err) throw err;
+  console.log("DB is Connected!");
+});
 app.listen(8545, function () {
   console.log("Connected 8545 port!");
 });
-
-module.exports = {
-  host: "localhost",
-  user: "id",
-  password: "pw",
-  database: "userInfo",
-};
 
 // 리액트와 nodejs 서버간 ajax 요청 (DB 데이터 주고 받을 때 필요)
 app.use(express.json());
 var cors = require("cors");
 app.use(cors());
 
+app.get("/user", (req, res) => {
+  const sql = "SELECT userId FROM User";
+  db.query(sql, (err, rows, fields) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log(rows);
+      res.send(rows);
+    }
+  });
+});
 // 앱페이지
 app.use(express.static(path.join(__dirname, "dipper_app/build")));
 app.get("/", function (req, res) {
